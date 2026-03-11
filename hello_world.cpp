@@ -1,9 +1,13 @@
+//the programm displays a greeeting with the users name
 #include <iostream>
 #include <string>
-using namespace std;
+// using namespace std; deleted for better style
 int main(){
-string name;
-cout<<"Enter your name: ";
-cin>>name;
-cout<<"Hello world from "<<name<<endl;
+// declaring a variable to store the username
+std::string name;
+//requesting a username
+std::cout<<"Enter your name: ";
+std::cin>>name;
+//greeting output
+std::cout<<"Hello world from "<<name<<std::endl;
 return 0;}
