@@ -1,4 +1,4 @@
-//the programm displays a greeeting with the users name
+//hello world the programm displays a greeeting with the users name.
 #include <iostream>
 #include <string>
 // using namespace std; deleted for better style
